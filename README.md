@@ -1,5 +1,5 @@
 # Android-carpooling
-PROBLEM STATEMENT
+
 Over the past decade, problems related to traffic congestion have severely aggravated in city centres
 across the globe. Today increase of environmental concerns and the congestion of roads, carpooling
 has gained a lot of popularity when it comes to environment friendly and cheap ways of travelling.
