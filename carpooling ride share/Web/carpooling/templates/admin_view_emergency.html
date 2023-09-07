@@ -1,0 +1,46 @@
+{% include 'adminheader.html' %}
+	
+	<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<h1 style="padding-top: 150px;">Emergency.</h1>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<form method="post">
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Phone</th>
+							<th>Latitude</th>
+							<th>Longitude</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['viewem'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['first_name']}}</td>
+							<td>{{row['last_name']}}</td>
+							<td>{{row['phone']}} </td>
+							<td>{{row['latitude']}}</td>
+							<td>{{row['longitude']}}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+				
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+{% include 'adminfooter.html' %}

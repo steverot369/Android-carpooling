@@ -1,0 +1,67 @@
+{% include 'adminheader.html' %}
+
+
+				<h1 style="padding-top: 150px;">Renter Details</h1>
+				
+				<table class='table'>
+					<thead class="thead-dark">
+						<tr>
+							<th>Sl No.</th>
+							<th>Full Name</th>
+							<th>Address</th>
+							<th>Gender</th>
+							<th>Email</th>
+							<th>Date of Birth</th>
+							<th>Contact Number</th>
+							<th>Lisence Number</th>
+							<th>Exp.</th>
+							<th>Date of Joining</th>
+							<th>Photo</th>
+							<th>Status</th>
+							
+							
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['driver'] %}
+						<tr class="table-light">
+							<td>{{loop.index}}</td>
+							<td>{{row['driver_fname']}}<br>{{row['driver_lname']}}</td>
+							<td>{{row['driver_hname']}}<br> city:{{row['driver_city']}}<br>street : {{row['driver_street']}}</td>
+							<td>{{row['driver_gender']}}</td>
+							<td>{{row['driver_email']}}</td>
+							<td>{{row['driver_dob']}}</td>
+							<td>{{row['driver_phn']}}</td>
+							<td>{{row['driver_lisence']}}</td>
+							<td>{{row['driver_exp']}}</td>
+							<td>{{row['driver_doj']}}</td>
+							<td><img src="/{{row['driver_photo']}}" width="100px" height="100px"></td>
+							{% if row['r_status']=="pending" %}
+							<td style="color: red;font-style:bold">{{row['r_status']}}</td>
+							{%elif row['r_status']=="Active"%}
+							<td><img src="/static/icons/Accept.png" width="40px" height="40px"></td>
+							{%else%}
+							<td><img src="/static/icons/Reject.png" width="40px" height="40px"></td>
+							{%endif%}
+							{% if row['r_status']=="pending" %}
+							<td>
+								<a href="?action=approve&id={{row['renter_id']}}" onclick="return confirm('Do you want to approve ?')">Approve
+								</a>
+							</td>
+							
+							<td>
+								<a href="?action=reject&id={{row['renter_id']}}" onclick="return confirm('Do you want to reject ?')">Reject
+								</a>
+							</td>
+							{% endif %}
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% include 'adminfooter.html' %}

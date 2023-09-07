@@ -1,0 +1,2 @@
+com/example/sharetaxi/test/BuildConfig.java
+ com.example.sharetaxi.test.BuildConfig

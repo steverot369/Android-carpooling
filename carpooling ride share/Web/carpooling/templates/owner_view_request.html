@@ -1,0 +1,37 @@
+{% include 'owner_header.html' %}
+<center>
+    <h1 style="padding-top: 150px;">View Requests</h1>
+    <form action="" method="post">
+        <table class="table table-hover" style="width: 800px;">
+              <thead class="thead-dark">
+
+               <tr>
+                    <th>User Name</th>
+                    <th>Phone no</th>
+
+                    <th>Vehicle</th>
+                    <th>Requested Date</th>
+                    <th>Rent Status</th>
+               </tr> 
+               <thead>
+               {% for i in data['req'] %}
+               <tr class="table-light">
+                    <td>{{i['driver_fname']}} {{i['driver_lname']}}</td>
+                    <td>{{i['driver_phn']}}</td>
+
+                    <td><img src="/{{i['image']}}" alt="" style="height: 70px; width: 70px;"><br>{{i['details']}}</td>
+                    <td>{{i['requested_date']}}</td>
+                    <td>{{i['status']}}</td>
+                    {% if i['status']=='pending' %}
+
+                    <td><a href="?action=accept&id={{i['v_request_id']}}" class="btn btn-success btn-sm">Accept</a></td>
+                    <td><a href="?action=reject&id={{i['v_request_id']}}" class="btn btn-danger btn-sm">Reject</a></td>
+
+                    {% endif %}
+               </tr>
+               {% endfor %}
+        </table>    
+    </form>
+    
+</center>
+{% include 'adminfooter.html' %}

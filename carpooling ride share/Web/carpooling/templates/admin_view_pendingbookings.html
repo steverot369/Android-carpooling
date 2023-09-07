@@ -1,0 +1,48 @@
+{% include 'adminheader.html' %}
+	
+	<div id='page-wrapper'>
+	<div id='page-inner'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<h1 style="padding-top: 150px;">View  Bookings</h1>
+				<div class='form'>
+				</div>
+			</div>
+		</div>
+		<form method="post">
+		<div class='row'>
+			<div class='col-md-12'>
+				<table class='table'>
+					<thead>
+						<tr>
+							<th>Sl No.</th>
+							<th>User Name</th>
+							<th>Vehicle No & Type</th>
+							<th>From - To</th>
+							<th>Date & Time</th>
+							<th>Amount</th>
+							<th>Status</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in data['view_pendingbookings'] %}
+						<tr>
+							<td>{{loop.index}}</td>
+							<td>{{row['first_name']}}{{row['last_name']}}</td>
+							<td>{{row['vehicle_no']}}<br>{{row['vehicle_type']}}</td>
+							<td>{{row['booking_from']}} - {{row['booking_to']}}</td>
+							<td>{{row['booking_date']}} {{row['booking_time']}}</td>
+							<td>{{row['amount']}}</td>
+							<td>{{row['status']}}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+				
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+
+{% include 'adminfooter.html' %}

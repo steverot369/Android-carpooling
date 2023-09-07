@@ -1,0 +1,482 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Carpooling Bootstrap Responsive Web Template | Home :: W3Layouts </title>
+  <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="/static/assets/css/style-starter.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
+  <script src="https://kit.fontawesome.com/c7705f70af.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+
+ .password-container {
+    position: relative;
+  }
+  
+  .password-container input[type="password"] {
+    padding-right: 40px;
+  }
+  
+  .password-container .fa {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-container .fa-eye {
+    color: #333;
+  }
+  
+  .password-container .fa-eye-slash {
+    color: #333;
+  }
+body
+{
+  background-color: #C8BCBA;
+
+}
+</style>
+<body>
+  <header id="site-header" class="fixed-top">
+    <section class="w3l-header-4">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <h1> <a class="navbar-brand" href="index.html">
+              Android<span class="sublog"> carpooling.</span>
+            </a></h1>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa icon-expand fa-bars"></span>
+            <span class="fa icon-close fa-times"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link a" href="/">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a" href="login">Login</a>
+              </li>
+        <li class="nav-item">
+                <a class="nav-link a" href="ownerreg">Owner Registeration</a>
+              </li>
+              
+              <!-- <li class="nav-item">
+                <a class="nav-link a" href="view_pendingbookings">Pending Requests
+
+        </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link a" href="view_feedbacks">Feedbacks</a>
+              </li>
+        <li class="nav-item">
+                <a class="nav-link a" href="view_complaints">Complaints</a>
+              </li>
+        <li class="nav-item">
+                <a class="nav-link a" href="viewuser">Usres</a>
+              </li>
+        <li class="nav-item">
+                <a class="nav-link a" href="viewem">Emergency</a>
+              </li>
+        <li class="nav-item">
+                <a class="nav-link a" href="logout">Logout</a>
+              </li> -->
+            </ul>
+            <!-- <ul class="navbar-nav search-right mt-lg-0 mt-2">
+              <li class="nav-item mr-2" title="Search"><a href="#search" class="btn search-search">
+                  <span class="fa fa-search" aria-hidden="true"></span></a></li>
+              <li class="nav-item mx-xl-4"><a href="tel:+(12)234-11-24"
+                  class="btn btn-primary btn-white d-none d-lg-block btn-style mr-2 phone-btn"><span class="fa fa-phone mr-xl-3"
+                    aria-hidden="true"></span> (32)234-14-94</a></li>
+            </ul> -->
+
+            <!-- //toggle switch for light and dark theme -->
+            <!-- search popup -->
+            <!-- <div id="search" class="pop-overlay">
+              <div class="popup">
+                <form action="#" method="GET" class="d-sm-flex">
+                  <input type="search" placeholder="Search.." name="search" required="required" autofocus>
+                  <button type="submit"><span class="fa fa-search"></span></button>
+                  <a class="close" href="#">&times;</a>
+                </form>
+              </div>
+            </div> -->
+            <!-- /search popup -->
+          </div>
+          <!-- toggle switch for light and dark theme -->
+      <div class="mobile-position">
+        <nav class="navigation">
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox">
+          <div class="mode-container">
+            <i class="gg-sun"></i>
+            <i class="gg-moon"></i>
+          </div>
+          </label>
+        </div>
+        </nav>
+      </div>
+      </nav>
+    </div>
+    </section>
+  </header>
+  <!--//header-->
+
+<style>
+  .a{
+    color: black !important;
+  }
+</style>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul class=flashes>
+      {% for message in messages %}
+        <script type="text/javascript">alert("{{message}}")</script>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+          <br><br><br><br><br>
+          <div style="display: flex;justify-content: center;align-items: center;">
+            <div style="color: rgb(219, 213, 203);box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;width: 450px;">
+              <form  method="post">
+
+                <center>
+                  <h3 style="padding-top: 20px;padding-bottom: 10px;">Login Here</h3>
+                  <table class="table" style="width: 450px">
+                    <tr>
+                      
+                      <td>  <input name="username" id="text1" type="text" value="" placeholder="Username" class="form-control" required="">
+                      </td>
+                    </tr>
+                    <tr>
+                      
+                      <td class="password-container">
+
+                        
+                        <input name="password" id="passwordInput" type="Password" placeholder="Password" 
+                        class="form-control" required>
+                        <i class="fa fa-eye" id="passwordVisibilityIcon"></i>
+                    
+                       
+                      </td>
+                     
+
+                     <!-- <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fa fa-user"></i></span>
+    </div>
+    <input type="text" class="form-control" placeholder="Enter your name">
+  </div> -->
+                    
+                      
+                    </tr>
+                    <tr>
+                      <td colspan="2" align="center"><input type="submit" name="submit" name="submit" value="Login" class="btn btn-outline-success"> </td>
+
+                    </tr>
+
+                   </tr>
+                  <tr>
+                    <td align="center" > <a href="forgotpassword" class="link-info">Forgot password</a></td>
+                  </tr>
+                </table>
+              </center>
+              </form>
+            </div>
+          </div>
+        
+      <br><br><br><br><br>
+
+
+
+ <!-- footer -->
+ <footer class="w3l-footer-29-main">
+    <div class="footer-29-w3l py-5">
+      <div class="container py-lg-4">
+        <div class="row footer-top-29">
+          <div class="col-lg-4 col-md-6  footer-list-29 footer-1 pr-lg-5">
+            <div class="footer-logo mb-3">
+              <a class="footer-brand-logo" href="index.html">Android <span class="sublog"> carpooling.</span></a>
+
+            </div>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+              tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+            <div class="main-social-footer-29 mt-4">
+              <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+              <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+              <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+              <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+            <h6 class="footer-title-29">Subscribe Newsletter
+            </h6>
+            <form action="#" method="post" class="forms-25-info mt-4 mb-2">
+              <div class="forms-gds">
+                <input type="email" name="" placeholder="Enter your email" required="">
+                <button class="btn btn-style btn-primary">Subscribe</button>
+              </div>
+              <p class="mt-4 text-left">By submitting this form, you agree to the <a href="#">privacy policy</a> and <a
+                  href="#">terms of use</a></p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6  footer-list-29 footer-4 mt-lg-0 mt-5 pl-lg-5">
+            <h6 class="footer-title-29">Instagram
+            </h6>
+            <ul class="w3linst-imgs row">
+              <li class="col-4"><a href="#"><img src="/static/assets/images/b1.jpg" alt="" class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4"><a href="#"><img src="/static/assets/images/b2.jpg" alt="" class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4"><a href="#"><img src="/static/assets/images/b3.jpg" alt="" class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4 mt-4"><a href="#"><img src="/static/assets/images/b4.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4 mt-4"><a href="#"><img src="/static/assets/images/b5.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+              <li class="col-4 mt-4"><a href="#"><img src="/static/assets/images/b6.jpg" alt=""
+                    class="radius-image img-fluid"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //footer -->
+    <!-- copyright -->
+    <section class="w3l-copyright">
+      <div class="container">
+        <div class="row bottom-copies">
+          <p class="col-lg-8 copy-footer-29">© 2021 Petspatial. All rights reserved. Design by <a
+              href="https://w3layouts.com/" target="_blank">
+              W3layouts</a></p>
+
+          <div class="col-lg-4 footer-list-29">
+            <ul class="d-flex text-lg-right">
+              <li><a href="#careers"> Careers</a></li>
+              <li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      &#10548;
+    </button>
+    <!-- for password -->
+<script>
+var passwordInput = document.getElementById("passwordInput");
+var passwordVisibilityIcon = document.getElementById("passwordVisibilityIcon");
+
+passwordVisibilityIcon.addEventListener("click", function() {
+  passwordInput.type = passwordInput.type === "text" ? "password" : "text";
+  passwordVisibilityIcon.classList.toggle("fa-eye");
+  passwordVisibilityIcon.classList.toggle("fa-eye-slash");
+});
+
+
+    </script>
+
+
+
+
+
+
+</script>
+
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+  </footer>
+
+  <!-- //copyright -->
+  <!-- Template JavaScript -->
+  <script src="/static/assets/js/jquery-3.3.1.min.js"></script>
+  <script src="/static/assets/js/theme-change.js"></script>
+  <!-- owlcarousel -->
+  <!-- owl carousel -->
+  <script src="/static/assets/js/owl.carousel.js"></script>
+  <!-- script for banner slider-->
+  <script>
+    $(document).ready(function () {
+      $('.owl-one').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          480: {
+            items: 1
+          },
+          667: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script -->
+  <!-- script for tesimonials carousel slider -->
+  <script>
+    $(document).ready(function () {
+      $("#owl-demo2").owlCarousel({
+        loop: true,
+        nav: false,
+        margin: 50,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          736: {
+            items: 1,
+            nav: false
+          },
+          991: {
+            items: 2,
+            margin: 30,
+            nav: false
+          },
+          1080: {
+            items: 2,
+            nav: false
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script for tesimonials carousel slider -->
+
+  <!-- stats number counter-->
+  <script src="/static/assets/js/jquery.waypoints.min.js"></script>
+  <script src="/static/assets/js/jquery.countup.js"></script>
+  <script>
+    $('.counter').countUp();
+  </script>
+  <!-- //stats number counter -->
+  <!-- video popup -->
+  <script src="/static/assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+
+      $('.popup-with-move-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+      });
+    });
+  </script>
+  <!-- //video popup -->
+  <!--/MENU-JS-->
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
+    });
+  </script>
+
+  <!--//MENU-JS-->
+
+  <script src="/static/assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+  

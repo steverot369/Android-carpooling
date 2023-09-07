@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_vehicle.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\vehicle.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_d1.jpeg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\d1.jpeg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_new_password.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_set_new_password.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_card.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-mdpi\\card.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rentpayment.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_rentpayment.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_d4.jpeg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\d4.jpeg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notif_details.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_notif_details.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_person_24.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_multi.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\multi.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ddd.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\ddd.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vehicle.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_vehicle.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewbookings.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_viewbookings.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_hhh.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\hhh.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_accept__reject_sharereq.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_accept__reject_sharereq.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_route__view.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_route__view.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_person_24.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vehiclelist.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_vehiclelist.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bookrentcar.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_bookrentcar.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_d2.jpeg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\d2.jpeg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_accept__reject_sharereq.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\accept__reject_sharereq.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_home.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_picku.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\picku.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_route__view.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\route__view.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_dro.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\dro.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_vehiclelist.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\vehiclelist.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ipsetting.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_ipsetting.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_cusdroplist.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\cusdroplist.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sharedreq.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_sharedreq.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mm.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\mm.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_cust_images.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\cust_images.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_spin.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\spin.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_login.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_person_24.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\background.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_view_notification.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\view_notification.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewrentcars.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_viewrentcars.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_taxi_drive.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\taxi_drive.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_payment.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\payment.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_cust_list.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\cust_list.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_driverlogo.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\driverlogo.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_rating.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\rating.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_sharedreq.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\sharedreq.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_customlist.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\customlist.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_drop.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_drop.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sh.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\sh.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_person_24.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_person_24.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewemergency.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_viewemergency.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pickup.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_pickup.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable\\btn.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_notification.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_view_notification.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_register.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\register.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ratings.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_ratings.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_userlogo.jpg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\userlogo.jpg"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_person_24.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_ipsetting.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\ipsetting.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custombtn.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable\\custombtn.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\menu_notif_details.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\menu\\notif_details.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_person_24.png.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_download.jpeg.flat",
+        "source": "C:\\finaledit\\carpooling ride share\\Android\\Android\\androidstudiosharetaxidriver\\app\\src\\main\\res\\drawable-hdpi\\download.jpeg"
+    }
+]

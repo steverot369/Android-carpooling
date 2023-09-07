@@ -1,0 +1,38 @@
+{% include 'owner_header.html' %}
+<center>
+    <h2 style="margin-top: 10rem;">Rent Payment History</h2>
+    <table class="table table-striped" style="width: 1000px;margin-bottom: 5rem;">
+        <thead class="thead-dark">
+        <tr>
+            <th>Image</th>
+            <th>Vehicle Name</th>
+            <th>Phone no</th>
+
+            <th>Register Number</th>
+            <th>Details</th>
+            <th>Renter Name</th>
+            <th>Amount</th> 
+            <th>Date</th>
+            <th>Vehicle Status</th>
+        </tr>
+        <thead>
+
+        {% for row in data['myv'] %}
+        <tr class="table-light">
+            <td><img src="/{{row['image']}}" alt="" style="width: 100px;height: 70px;"></td>
+            <td>{{row['vehicle']}}</td>
+            <td>{{row['driver_phn']}}</td>
+
+            <td>{{row['reg_no']}}</td>
+            <td>{{row['details']}}</td>
+            <td>{{row['driver_fname']}} {{row['driver_lname']}}</td>
+            <td>{{row['amount']}}</td>
+            <td>{{row['date']}}</td>
+            <td>{{row['status']}}</td>
+            <!-- <td><a href="managevehicles?action=delete&id={{row['vehicle_id']}}" class="btn btn-danger btn-sm">Remove Vehicle</a></td>
+            <td><a href="managevehicles?action=upd&id={{row['vehicle_id']}}" class="btn btn-info btn-sm">Update details</a></td> -->
+        </tr>
+        {% endfor %}
+    </table>
+</center>
+{% include 'adminfooter.html'  %}

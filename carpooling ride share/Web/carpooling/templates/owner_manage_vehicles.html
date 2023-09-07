@@ -1,0 +1,104 @@
+{% include 'owner_header.html' %}
+
+<center>
+    
+    <h1 style="padding-top: 150px;">Vehicles</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table class="table" style="width: 700px;">
+
+            <tr>
+                <th>Vehicle Name</th>
+                <td><input type="text" name="vehicle" class="form-control" value="{% if data['upd'] %}{{data['upd'][0]['vehicle']}}{% endif %}" placeholder="Enter vechicle name" required=""></td>
+            </tr>    
+            <tr>
+                <th>Image</th>
+                <td><input type="file" name="img" class="form-control"value="{% if data['upd'] %}{{data['upd'][0]['image']}}{% endif %}" required></td>
+            </tr>
+            <tr>
+                <th><Details></th>
+                <td><textarea type="text" name="det" class="form-control" value="{% if data['upd'] %}{{data['upd'][0]['details']}}{% endif %}" placeholder="Enter Details of your vechicle" rows="3" required></textarea></td>
+            </tr>
+            <tr>
+                <th>Rent</th>
+                <td><input type="number" name="rate" class="form-control" value="{% if data['upd'] %}{{data['upd'][0]['rate']}}{% endif %}" placeholder="Enter rent per day" required></td>
+            </tr>
+            <tr>
+                <th>Seat</th>
+                <td><input type="number" name="seat" class="form-control" value="{% if data['upd'] %}{{data['upd'][0]['seat_no']}}{% endif %}" placeholder="Enter no of seats" required></td>
+            </tr>
+            <tr>
+                <th>Register No:</th>
+                <td><input type="text" name="regno" id="vehicle-number" class="form-control" value="{% if data['upd'] %}{{data['upd'][0]['reg_no']}}{% endif %}" 
+                    pattern="[A-Z]{2}[-][0-9]{1,2}[-][A-Z]{1,2}[-][0-9]{4}"
+                    placeholder="eg: KL-07-AB-5878" required="">
+                <p id="vehicle-number-message"></p></td>
+            </tr>
+            <tr>
+                
+                <td colspan="2" align="center"><input type="submit" {% if data['upd'] %} name="update" value="Update Details" {% else %} name="add" value="Register Vehicle" {% endif %} class="btn btn-outline-success"></td>
+            </tr>
+        </table> 
+    </form>
+
+    <h2>My Vehicles</h2>
+    <table class="table table-hover" style="width: 910px;">
+              <thead class="thead-dark">
+
+        <tr>
+            <th>Image</th>
+            <th>Vehicle Name</th>
+            <th>Register Number</th>
+            <th>Details</th>
+            <th>Seat Capacity</th>
+            <th>Rent/day</th>
+            <th>Status</th>
+            <th></th>
+            <th></th>
+        </tr>
+              <thead>
+
+        {% for row in data['myv'] %}
+        <tr class="table-light">
+            <td><img src="/{{row['image']}}" alt="" style="width: 70px;height: 70px;"></td>
+            <td>{{row['vehicle']}}</td>
+            <td>{{row['reg_no']}}</td>
+            <td>{{row['details']}}</td>
+            <td>{{row['seat_no']}}</td>
+            <td>{{row['rate']}}</td>
+
+            <td>{{row['status']}}</td>
+            <td><a href="managevehicles?action=delete&id={{row['vehicle_id']}}" class="btn btn-danger btn-sm">Remove Vehicle</a></td>
+            <td><a href="managevehicles?action=upd&id={{row['vehicle_id']}}" class="btn btn-info btn-sm">Update details</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+
+</center>
+<script>
+  let vehicleNumberInput = document.getElementById("vehicle-number");
+  let vehicleNumberMessage = document.getElementById("vehicle-number-message");
+  vehicleNumberInput.addEventListener("input", function() {
+    let vehicleNumber = vehicleNumberInput.value;
+    let pattern = /^[A-Z]{2}[ -][0-9]{1,2}[ -][A-Z]{1,2}[ -][0-9]{4}$/;
+    if (!pattern.test(vehicleNumber)) {
+      vehicleNumberMessage.innerHTML = "Invalid vehicle number format";
+      vehicleNumberMessage.className = "invalid";
+    } else {
+      vehicleNumberMessage.innerHTML = "Valid vehicle number format";
+      vehicleNumberMessage.className = "valid";
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+{% include 'adminfooter.html' %}

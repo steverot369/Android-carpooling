@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/map"
+    android:layout_height="match_parent"
+    tools:context=".Sharetofriend">
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_height="50dp"
+        android:hint="Enter 10 Disgit No:" />
+
+    <Button
+        android:id="@+id/sendloc"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:text="SHARE"
+        android:textColor="#06D8D8" />
+</LinearLayout>

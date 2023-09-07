@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#DCD0D0"
+    android:layout_height="match_parent"
+    tools:context=".Viewbookings">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="View Rented Cars"
+        android:textColor="#fff"
+
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:text="-----pay amount 1 day before requested date---------"
+        android:textColor="#CA3030"
+        android:textSize="16dp"
+
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        >
+
+
+    </ListView>
+
+    <!--    <android.support.v7.widget.AppCompatButton-->
+    <!--        android:id="@+id/myb"-->
+    <!--        style="?android:attr/buttonStyleSmall"-->
+    <!--        android:layout_width="250dp"-->
+
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="20sp"-->
+    <!--        android:background="@drawable/custombtn"-->
+    <!--        android:text="View My Bookings" />-->
+
+</LinearLayout>

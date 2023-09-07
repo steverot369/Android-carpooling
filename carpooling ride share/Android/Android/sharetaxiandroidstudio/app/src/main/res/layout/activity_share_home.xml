@@ -1,0 +1,47 @@
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/map"
+        android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Home" >
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:text="share to others"
+        android:textStyle="bold"
+        android:textColor="#06D8D8" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:text="view shared "
+            android:textStyle="bold"
+            android:textColor="#06D8D8" />
+
+        <Button
+            android:id="@+id/myshare"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:text="My Shares "
+            android:textStyle="bold"
+            android:textColor="#06D8D8" />
+
+    </LinearLayout>
