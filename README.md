@@ -28,3 +28,6 @@ address this issue and improve security, the admin has been given the sole autho
 driver/renter. Renter/driver can’t log in and access the modules unless their request has been verified
 by the admin. Along with being helpful for commuting, carpooling is also a viable method of inter-city
 or inter-state travel
+
+Home page :![image](https://github.com/steverot369/Android-carpooling/assets/136913603/dbe6feb4-1b6e-4176-aed5-eb6d1b3fef7b)
+
